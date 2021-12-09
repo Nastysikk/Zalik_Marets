@@ -12,6 +12,8 @@ namespace Zalik
         {
             Console.Write("Введіть ім'я: ");
             string name = Console.ReadLine();
+            Console.Write("Введіть рік народження: ");
+            int year = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Введіть прізвище: ");
             string surname = Console.ReadLine();
